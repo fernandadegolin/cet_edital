@@ -20,6 +20,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* HEADER */
 .header__logo {
   background-image: linear-gradient(black, white);
   padding: 2rem;

@@ -1,16 +1,32 @@
-h2 {
-  color: red;
+/* AVATAR */
+.person__avatar {
+  padding: 5rem;
 }
-.box__quiz {
+
+.person__avatar img {
+  width: 300px;
+  float: left;
+  margin: 0 3rem 2rem 0;
+}
+
+.person__profile_title {
+  font-size: 5rem;
+  margin: inherit;
+}
+
+.person__profile p {
+  line-height: 1.7rem;
+  text-align: justify;
+}
+
+/* QUIZ */
+.person__profile_quiz {
   background-color: white;
   padding: 10px;
   border-radius: 10px;
   width: 100%;
-  max-width: 300px;
+  max-width: 50%;
   min-height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .content {
@@ -37,7 +53,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #008ccc;
+  background-color: var(--bg-edi);
   color: white;
 }
 

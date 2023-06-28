@@ -135,17 +135,17 @@ main {
 }
 
 .card__title {
-  margin-top: 60px;
-  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 65px;
+  font-weight: 700;
   font-size: 18px;
   color: var(--main-color);
 }
 
 .card__subtitle {
   margin-top: 10px;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 15px;
-  color: var(--submain-color);
 }
 
 .card__btn {

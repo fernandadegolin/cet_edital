@@ -82,6 +82,30 @@ main {
   transform: scale(1.05);
 }
 
+.card-edi:hover {
+  background: var(--bg-edi);
+}
+
+.card-nath:hover {
+  background: var(--bg-nath);
+}
+
+.card-falcao:hover {
+  background: var(--bg-falcao);
+}
+
+.card-fer:hover {
+  background: var(--bg-fer);
+}
+
+.card-jubs:hover {
+  background: var(--bg-jubs);
+}
+
+.card-leti:hover {
+  background: var(--bg-leti);
+}
+
 .card__img {
   height: 175px;
   width: 100%;

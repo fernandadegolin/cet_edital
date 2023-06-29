@@ -148,29 +148,7 @@ main {
   font-size: 15px;
 }
 
-.card__btn {
-  margin-top: 15px;
-  width: 76px;
-  height: 31px;
-  border: 2px solid var(--main-color);
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 11px;
-  color: var(--main-color);
-  background: var(--bg-color);
-  text-transform: uppercase;
-  transition: all 0.3s;
-  cursor: pointer;
-}
-
-.card__btn:hover {
-  background: var(--main-color);
-  color: var(--bg-color);
-}
-
 .card__btn:active {
-  background: var(--main-color);
-  color: var(--bg-color);
   transition: all 0.25s;
   transform: scale(0.98);
 }

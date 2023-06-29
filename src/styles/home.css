@@ -55,7 +55,6 @@ main {
 }
 
 /* CARDS */
-
 .cards {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
@@ -81,30 +80,6 @@ main {
 
 .card:hover {
   transform: scale(1.05);
-}
-
-.card-edi:hover {
-  background: var(--bg-edi);
-}
-
-.card-nath:hover {
-  background: var(--bg-nath);
-}
-
-.card-falcao:hover {
-  background: var(--bg-falcao);
-}
-
-.card-fer:hover {
-  background: var(--bg-fer);
-}
-
-.card-jubs:hover {
-  background: var(--bg-jubs);
-}
-
-.card-leti:hover {
-  background: var(--bg-leti);
 }
 
 .card__img {
@@ -176,3 +151,54 @@ footer {
   text-decoration: underline;
   font-size: 0.9rem;
 }
+
+/* NEXT PAGE Avatars */
+.next__page_card-edi:hover {
+  box-shadow: 0px -8px 27px 1px var(--bg-edi);
+}
+.next__page_card-nath:hover {
+  box-shadow: 0px -8px 27px 1px var(--bg-nath);
+}
+
+.next__page_card-falcao:hover {
+  box-shadow: 0px -8px 27px 1px var(--bg-falcao);
+}
+
+.next__page_card-fer:hover {
+  box-shadow: 0px -8px 27px 1px var(--bg-fer);
+}
+
+.next__page_card-jubs:hover {
+  box-shadow: 0px -8px 27px 1px var(--bg-jubs);
+}
+
+.next__page_card-leti:hover {
+  box-shadow: 0px -8px 27px 1px var(--bg-leti);
+}
+/* FIM NEXT PAGE Avatars */
+
+/* BG CARD Avatares */
+.card-edi:hover {
+  background: var(--bg-edi);
+}
+
+.card-nath:hover {
+  background: var(--bg-nath);
+}
+
+.card-falcao:hover {
+  background: var(--bg-falcao);
+}
+
+.card-fer:hover {
+  background: var(--bg-fer);
+}
+
+.card-jubs:hover {
+  background: var(--bg-jubs);
+}
+
+.card-leti:hover {
+  background: var(--bg-leti);
+}
+/* FIM BG CARD Avatares */

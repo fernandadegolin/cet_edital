@@ -16,42 +16,9 @@
   margin: inherit;
 }
 
-.person__profile_subtitle {
-  margin-top: 2rem;
-}
-
-.person__profile_back button {
-  width: 12%;
-  height: 2rem;
-  text-align: center;
-  margin-top: 4rem;
-  border-radius: 10px;
-  font-weight: 700;
-}
-
-.person__profile_back button:hover {
-  background: #b69b4d;
-  border: none;
-}
-.person__profile_back:active {
-  transition: all 0.25s;
-  transform: scale(0.98);
-}
-
 .person__profile p {
   line-height: 1.7rem;
   text-align: justify;
-}
-
-.person__profile_avatar img {
-  width: 100px;
-  margin-right: 1.5rem;
-  border-radius: 50%;
-  box-shadow: 0px -10px 27px 1px #c0c0c0;
-}
-
-.person__profile_avatar img:hover {
-  transform: scale(1.05);
 }
 
 /* QUIZ */
@@ -91,7 +58,7 @@
   gap: 5px;
 }
 
-button {
+.answer_button {
   width: 100%;
   text-align: start;
   padding: 5px;
@@ -101,7 +68,7 @@ button {
   background-color: var(--bg-edi);
 }
 
-button:hover {
+.answer_button:hover {
   background: #b69b4d;
   color: #fff;
 }
@@ -120,10 +87,57 @@ button:hover {
   font-weight: 600;
 }
 
-.finish button {
+.finish_button {
   width: 40%;
   height: 2rem;
   text-align: center;
   border-radius: 10px;
   font-weight: 700;
+}
+
+/* NEXT PAGE */
+.next__page {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.next__page_card {
+  display: flex;
+  width: 50%;
+  padding: 1rem;
+  align-items: start;
+  border-radius: 10px;
+  box-shadow: 0px -8px 27px 1px #c0c0c0;
+}
+
+.next__page_back span {
+  margin: 21.28px;
+  font-size: small;
+  font-weight: 900;
+}
+
+.next__page_back span:hover {
+  transform: scale(1.2);
+}
+
+.next__page_back:active {
+  transition: all 0.25s;
+  transform: scale(0.98);
+}
+
+.next__page_title {
+  margin-right: 2rem;
+}
+
+.next__page_card img {
+  width: 100px;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+  box-shadow: 0px -10px 27px 1px #c0c0c0;
+}
+
+.next__page_card img:hover {
+  transform: scale(1.05);
 }

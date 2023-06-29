@@ -1,6 +1,6 @@
 /* AVATAR */
 .person__avatar {
-  padding: 5rem 5rem 1rem;
+  padding: 5rem 5rem 3rem;
 }
 
 .person__avatar img {
@@ -14,6 +14,10 @@
 .person__profile_title {
   font-size: 5rem;
   margin: inherit;
+}
+
+.person__profile_subtitle {
+  margin-top: 2rem;
 }
 
 .person__profile_back button {
@@ -55,9 +59,13 @@
   background-color: white;
   padding: 10px;
   border-radius: 10px;
-  width: 100%;
   max-width: 50%;
   min-height: 200px;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px -8px 27px 1px #c0c0c0;
 }
 
 .content {
@@ -67,8 +75,14 @@
   gap: 10px;
 }
 
+.question {
+  font-weight: 600;
+}
+
 .spnQtd {
   text-align: end;
+  font-size: small;
+  font-weight: 500;
 }
 
 .answers {
@@ -95,9 +109,21 @@ button:hover {
 .finish {
   display: none;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
+  margin-top: 3rem;
+}
+
+.finish span {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
 }
 
 .finish button {
+  width: 40%;
+  height: 2rem;
   text-align: center;
+  border-radius: 10px;
+  font-weight: 700;
 }

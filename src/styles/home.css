@@ -152,6 +152,10 @@ footer {
   font-size: 0.9rem;
 }
 
+/* ==================== */
+/* AVATARS */
+/* ==================== */
+
 /* NEXT PAGE Avatars */
 .next__page_card-edi:hover {
   box-shadow: 0px -8px 27px 1px var(--bg-edi);
@@ -177,7 +181,7 @@ footer {
 }
 /* FIM NEXT PAGE Avatars */
 
-/* BG CARD Avatares */
+/* BG CARD Avatars */
 .card-edi:hover {
   background: var(--bg-edi);
 }
@@ -201,4 +205,15 @@ footer {
 .card-leti:hover {
   background: var(--bg-leti);
 }
-/* FIM BG CARD Avatares */
+/* FIM BG CARD Avatars */
+
+/* BUTTON Avatars */
+.finish_button-edi {
+  background: var(--bg-edi);
+}
+.finish_button-edi:hover {
+  background: #b69b4d;
+  color: #fff;
+}
+
+/* FIM BUTTON Avatars */

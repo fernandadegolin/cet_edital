@@ -94,7 +94,7 @@ function loadQuestion() {
     answers.appendChild(div);
   });
 
-  document.querySelectorAll(".answer").forEach((item) => {
+  document.querySelectorAll(".answer_button").forEach((item) => {
     item.addEventListener("click", nextQuestion);
   });
 }

@@ -25,7 +25,7 @@ a {
 body {
   margin: 0 auto;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
 }
 
 main {
@@ -215,5 +215,22 @@ footer {
   background: #b69b4d;
   color: #fff;
 }
-
 /* FIM BUTTON Avatars */
+
+/* TITLE Avatars */
+.edi:before {
+  background: radial-gradient(
+    ellipse at center,
+    var(--bg-edi) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+}
+
+.nath:before {
+  background: radial-gradient(
+    ellipse at center,
+    var(--bg-nath) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+}
+/* FIM TITLE Avatars */

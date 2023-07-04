@@ -6,11 +6,22 @@
   --bg-color: #e8e8e8;
 
   --bg-edi: #f4da92;
+  --bg-edi-second: #b69b4d;
+
   --bg-nath: #b5e2c9;
+  --bg-nath-second: #5eca8e;
+
   --bg-falcao: #7eb9b1;
+  --bg-falcao-second: #2f746a;
+
   --bg-fer: #f7c0b5;
+  --bg-fer-second: #bd7668;
+
   --bg-jubs: #fae1dc;
+  --bg-jubs-second: #b48980;
+
   --bg-leti: #b5e2dc;
+  --bg-leti-sans: #48a195;
 }
 
 * {
@@ -212,7 +223,7 @@ footer {
   background: var(--bg-edi);
 }
 .finish_button-edi:hover {
-  background: #b69b4d;
+  background: var(--bg-edi-second);
   color: #fff;
 }
 /* FIM BUTTON Avatars */
@@ -234,3 +245,53 @@ footer {
   );
 }
 /* FIM TITLE Avatars */
+
+/* CARD TIPS Avatars */
+.tips-edi {
+  background: var(--bg-edi);
+}
+
+.tips-edi:hover {
+  background: var(--bg-edi-second);
+}
+
+.tips-nath {
+  background: var(--bg-nath);
+}
+
+.tips-nath:hover {
+  background: var(--bg-nath-second);
+}
+
+.tips-falcao {
+  background: var(--bg-falcao);
+}
+
+.tips-falcao:hover {
+  background: var(--bg-falcao-second);
+}
+
+.tips-fer {
+  background: var(--bg-fer);
+}
+
+.tips-fer:hover {
+  background: var(--bg-fer-second);
+}
+
+.tips-jubs {
+  background: var(--bg-jubs);
+}
+
+.tips-jubs:hover {
+  background: var(--bg-jubs-second);
+}
+
+.tips-leti {
+  background: var(--bg-leti);
+}
+
+.tips-leti:hover {
+  background: var(--bg-leti-second);
+}
+/* FIM CARD TIPS Avatars */

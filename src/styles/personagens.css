@@ -18,14 +18,10 @@
 
 .person__profile_subtitle {
   margin-top: 2.5rem;
-  -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
   animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .text-pop-up-top {
-  -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
   animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
@@ -33,6 +29,73 @@
   line-height: 1.9rem;
   text-align: justify;
 }
+
+/* CARDS TYPS */
+.person__profile-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.person__profile-card {
+  width: 190px;
+  height: 254px;
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px -8px 27px 1px #c0c0c0;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px;
+}
+
+.person__profile-card:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.07);
+  box-shadow: 0px -8px 27px 1px #c0c0c0;
+}
+
+.first-card {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.person__profile-card:hover .first-card {
+  height: 0px;
+  opacity: 0;
+}
+
+.second-card {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
+
+.second-card span {
+  font-size: small;
+  font-weight: 500;
+  color: #fff;
+}
+
+.person__profile-card:hover .second-card {
+  opacity: 1;
+  height: 100%;
+  font-size: 1.8rem;
+  transform: rotate(0deg);
+}
+/* FIM CARDS TYPS */
 
 /* Animação */
 .person__profile-animation {
@@ -89,39 +152,27 @@
  */
 @keyframes heartbeat {
   from {
-    -webkit-transform: scale(1);
     transform: scale(1);
-    -webkit-transform-origin: center center;
     transform-origin: center center;
-    -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
   10% {
-    -webkit-transform: scale(0.91);
     transform: scale(0.91);
-    -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
   17% {
-    -webkit-transform: scale(0.98);
     transform: scale(0.98);
-    -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
   33% {
-    -webkit-transform: scale(0.87);
     transform: scale(0.87);
-    -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
   45% {
-    -webkit-transform: scale(1);
     transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
 }
-
 /* Fim Animação */
 
 /* QUIZ */

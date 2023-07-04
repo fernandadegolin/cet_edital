@@ -30,7 +30,7 @@
   text-align: justify;
 }
 
-/* CARDS TYPS */
+/* CARDS TIPS */
 .person__profile-cards {
   display: flex;
   justify-content: space-evenly;
@@ -45,6 +45,7 @@
   font-size: 30px;
   font-weight: 900;
   padding: 10px;
+  transition-duration: 0.3s;
 }
 
 .person__profile-card:hover {
@@ -81,6 +82,7 @@
   transition: all 0.4s;
   font-size: 0px;
   transform: rotate(90deg) scale(-1);
+  transition-duration: 0.3s;
 }
 
 .second-card span {
@@ -94,8 +96,9 @@
   height: 100%;
   font-size: 1.8rem;
   transform: rotate(0deg);
+  transition-duration: 0.3s;
 }
-/* FIM CARDS TYPS */
+/* FIM CARDS TIPS */
 
 /* Animação */
 .person__profile-animation {
@@ -230,7 +233,7 @@
 }
 
 .answer_button:hover {
-  background: #b69b4d;
+  background: var(--bg-edi-second);
   color: #fff;
 }
 

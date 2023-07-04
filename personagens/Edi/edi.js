@@ -8,39 +8,48 @@ const btnRestart = document.querySelector(".finish button");
 
 const questions = [
   {
-    question: "Quanto é 1 + 2?",
+    question: "Qual é o objetivo principal do cinto de segurança?",
     answers: [
       {
+        option: "Evitar multas de trânsito.",
+        correct: false,
+      },
+      {
+        option: "Proporcionar conforto durante a viagem.",
+        correct: false,
+      },
+      {
         option:
-          "Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut est.",
+          "Proteger o ocupante do veículo em caso de colisões ou freadas bruscas.",
+        correct: true,
+      },
+    ],
+  },
+  {
+    question: "É seguro viajar sem utilizar o cinto de segurança?",
+    answers: [
+      { option: "Sim, desde que o motorista seja experiente.", correct: false },
+      {
+        option:
+          "Não, pois aumenta significativamente o risco de ferimentos graves ou fatais em caso de acidentes.",
         correct: true,
       },
       {
-        option:
-          "Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut est.",
+        option: "Sim, desde que a velocidade do veículo seja baixa.",
         correct: false,
       },
+    ],
+  },
+  {
+    question: "Quem deve usar o cinto de segurança em um veículo?",
+    answers: [
+      { option: "Apenas os passageiros do banco da frente.", correct: false },
+      { option: "Apenas o motorista", correct: false },
       {
         option:
-          "Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut est.",
-        correct: false,
+          "Todos os ocupantes do veículo, independentemente da posição que ocupam.",
+        correct: true,
       },
-    ],
-  },
-  {
-    question: "Quanto é 5 x 2?",
-    answers: [
-      { option: "9", correct: false },
-      { option: "10", correct: true },
-      { option: "11", correct: false },
-    ],
-  },
-  {
-    question: "Quanto é 10 x 8?",
-    answers: [
-      { option: "800", correct: false },
-      { option: "90", correct: false },
-      { option: "80", correct: true },
     ],
   },
 ];

@@ -89,6 +89,7 @@
   font-size: small;
   font-weight: 500;
   color: #fff;
+  line-height: 1.2rem;
 }
 
 .person__profile-card:hover .second-card {

@@ -1,12 +1,4 @@
 @media screen and (max-width: 767px) {
-  body {
-    background: red;
-  }
-  
-  main {
-    padding: initial;
-  }
-
   .header__logo img {
     width: 20%;
   }
@@ -26,10 +18,35 @@
     margin: auto;
     margin-bottom: 2rem;
   }
+
+  .card-edi {
+    background: var(--bg-edi);
+  }
+
+  .card-nath {
+    background: var(--bg-nath);
+  }
+
+  .card-falcao {
+    background: var(--bg-falcao);
+  }
+
+  .card-fer {
+    background: var(--bg-fer);
+  }
+
+  .card-jubs {
+    background: var(--bg-jubs);
+  }
+
+  .card-leti {
+    background: var(--bg-leti);
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  body {
-    background: green;
+@media screen and (min-width: 768px) and (max-width: 1274px) {
+  .cards {
+    grid-template-columns: 2fr 2fr;
+    padding: initial;
   }
 }

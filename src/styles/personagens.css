@@ -1,4 +1,8 @@
 /* AVATAR */
+.person{
+  padding: 0 3rem;
+}
+
 .person__avatar {
   padding: 5rem 5rem 3rem;
 }

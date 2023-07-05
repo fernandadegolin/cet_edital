@@ -39,10 +39,6 @@ body {
   font-family: sans-serif;
 }
 
-main {
-  padding: 0 3rem;
-}
-
 /* HEADER */
 .header__logo {
   background-image: linear-gradient(black, white);

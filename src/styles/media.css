@@ -1,0 +1,35 @@
+@media screen and (max-width: 767px) {
+  body {
+    background: red;
+  }
+  
+  main {
+    padding: initial;
+  }
+
+  .header__logo img {
+    width: 20%;
+  }
+
+  .title {
+    width: auto;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    padding: initial;
+    grid-gap: initial;
+  }
+
+  .card {
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background: green;
+  }
+}

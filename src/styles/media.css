@@ -1,4 +1,9 @@
 @media screen and (max-width: 767px) {
+  /* HOME */
+  main {
+    /* background: pink; */
+  }
+
   .header__logo img {
     width: 20%;
   }
@@ -42,6 +47,78 @@
   .card-leti {
     background: var(--bg-leti);
   }
+  /* FIM HOME */
+
+  /* PERSONAGEM */
+  .person {
+    padding: 0 1rem;
+  }
+
+  .person__avatar {
+    padding: initial;
+    text-align: center;
+  }
+
+  .person__avatar img {
+    width: 50%;
+    float: none;
+    margin: 1rem;
+  }
+
+  .person__profile_subtitle {
+    font-size: 1.3rem;
+  }
+
+  .person__profile p {
+    font-size: 0.9rem;
+  }
+
+  .person__profile-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .person__profile-card {
+    width: 70%;
+  }
+
+  .person__profile-animation:before {
+    opacity: 1;
+    transform: translateY(5px);
+  }
+
+  .first-card {
+    color: var(--main-color);
+  }
+
+  .quiz button {
+    color: var(--main-color);
+  }
+
+  .person__profile_quiz {
+    width: 100%;
+  }
+
+  .answer_button {
+    height: auto;
+  }
+
+  .finish_button {
+    width: auto;
+  }
+
+  .next__page {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .next__page_card {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  /* FIM PERSONAGEM */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1274px) {

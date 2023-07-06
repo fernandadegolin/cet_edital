@@ -1,5 +1,5 @@
 /* AVATAR */
-.person{
+.person {
   padding: 0 3rem;
 }
 
@@ -68,6 +68,11 @@
   align-items: center;
   opacity: 1;
   border-radius: 15px;
+  background: none;
+  border: none;
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: 900;
 }
 
 .person__profile-card:hover .first-card {

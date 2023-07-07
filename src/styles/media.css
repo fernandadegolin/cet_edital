@@ -96,12 +96,20 @@
     color: var(--main-color);
   }
 
+  .content {
+    gap: 2rem;
+  }
+
   .person__profile_quiz {
     width: 100%;
   }
 
+  .answers {
+    gap: 1rem;
+  }
+
   .answer_button {
-    height: auto;
+    /* height: auto; */
   }
 
   .finish_button {
@@ -117,6 +125,10 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+  }
+
+  .next__page_card span {
+    font-size: 0.8rem;
   }
   /* FIM PERSONAGEM */
 }

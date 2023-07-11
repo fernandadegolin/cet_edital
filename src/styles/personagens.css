@@ -41,7 +41,7 @@
 }
 
 .person__profile-card {
-  width: 190px;
+  width: 30%;
   height: 254px;
   transition: all 0.4s;
   border-radius: 10px;

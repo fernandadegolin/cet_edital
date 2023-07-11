@@ -9,7 +9,7 @@
   --bg-edi-second: #b69b4d;
 
   --bg-nath: #b5e2c9;
-  --bg-nath-second: #5eca8e;
+  --bg-nath-second: #298a54;
 
   --bg-falcao: #7eb9b1;
   --bg-falcao-second: #2f746a;
@@ -221,6 +221,14 @@ footer {
 .finish_button-edi:hover {
   background: var(--bg-edi-second);
   color: #fff;
+}
+
+.finish_button-nath {
+  background: var(--bg-nath);
+}
+.finish_button-nath:hover {
+  background: var(--bg-nath-second);
+  /* color: #fff; */
 }
 /* FIM BUTTON Avatars */
 

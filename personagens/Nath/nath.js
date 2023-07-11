@@ -8,46 +8,44 @@ const btnRestart = document.querySelector(".finish button");
 
 const questions = [
   {
-    question: "Qual é o objetivo principal do cinto de segurança?",
+    question: "Qual é a base do rodízio de veículos em São Paulo?",
     answers: [
       {
-        option: "Evitar multas de trânsito.",
+        option: "Marca do veículo",
         correct: false,
       },
       {
-        option: "Proporcionar conforto durante a viagem.",
+        option: "Cor do veículo",
         correct: false,
       },
       {
-        option:
-          "Proteger o ocupante do veículo em caso de colisões ou freadas bruscas.",
+        option: "Final da placa",
         correct: true,
       },
     ],
   },
   {
-    question: "É seguro viajar sem utilizar o cinto de segurança?",
+    question:
+      "Qual o período em que o rodízio de veículos ocorre em São Paulo?",
     answers: [
-      { option: "Sim, desde que o motorista seja experiente.", correct: false },
+      { option: "Todos os dias da semana", correct: false },
       {
-        option:
-          "Não, pois aumenta significativamente o risco de ferimentos graves ou fatais em caso de acidentes.",
+        option: "Segunda a sexta-feira",
         correct: true,
       },
       {
-        option: "Sim, desde que a velocidade do veículo seja baixa.",
+        option: "Sábado e domingo",
         correct: false,
       },
     ],
   },
   {
-    question: "Quem deve usar o cinto de segurança em um veículo?",
+    question: "Qual o horário do rodízio de veículos em São Paulo?",
     answers: [
-      { option: "Apenas os passageiros do banco da frente.", correct: false },
-      { option: "Apenas o motorista", correct: false },
+      { option: "Das 8h às 20h", correct: false },
+      { option: "Das 10h às 16h", correct: false },
       {
-        option:
-          "Todos os ocupantes do veículo, independentemente da posição que ocupam.",
+        option: "Das 7h às 10h e das 17h às 20h",
         correct: true,
       },
     ],
@@ -95,7 +93,7 @@ function loadQuestion() {
     const div = document.createElement("div");
 
     div.innerHTML = `
-    <button class="answer_button finish_button-edi" data-correct="${answer.correct}">
+    <button class="answer_button finish_button-nath" data-correct="${answer.correct}">
       ${answer.option}
     </button>
     `;

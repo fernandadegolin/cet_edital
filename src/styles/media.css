@@ -83,15 +83,6 @@
     width: 70%;
   }
 
-  .person__profile-animation h1 {
-    opacity: 0;
-  }
-
-  .person__profile-animation:before {
-    opacity: 1;
-    transform: translateY(5px);
-  }
-
   .first-card {
     color: var(--main-color);
   }

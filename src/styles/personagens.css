@@ -129,7 +129,7 @@
   left: 5%;
   height: 10px;
   width: 90%;
-  opacity: 0;
+  opacity: 1;
   transition-duration: 0.3s;
   transition-property: transform, opacity;
 }

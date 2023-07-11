@@ -242,6 +242,20 @@ footer {
 .finish_button-fer:hover {
   background: var(--bg-fer-second);
 }
+
+.finish_button-jubs {
+  background: var(--bg-jubs);
+}
+.finish_button-jubs:hover {
+  background: var(--bg-jubs-second);
+}
+
+.finish_button-leti {
+  background: var(--bg-leti);
+}
+.finish_button-leti:hover {
+  background: var(--bg-leti-second);
+}
 /* FIM BUTTON Avatars */
 
 /* TITLE Avatars */
@@ -273,6 +287,22 @@ footer {
   background: radial-gradient(
     ellipse at center,
     var(--bg-fer) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+}
+
+.jubs:before {
+  background: radial-gradient(
+    ellipse at center,
+    var(--bg-jubs) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+}
+
+.leti:before {
+  background: radial-gradient(
+    ellipse at center,
+    var(--bg-leti) 0%,
     rgba(0, 0, 0, 0) 80%
   );
 }

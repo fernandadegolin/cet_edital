@@ -8,46 +8,46 @@ const btnRestart = document.querySelector(".finish button");
 
 const questions = [
   {
-    question: "Qual é a distância mínima que deve ser mantida ao ultrapassar uma bicicleta?",
+    question: "Qual é o objetivo principal do cinto de segurança?",
     answers: [
       {
-        option: "1 metro",
-        correct: true,
+        option: "Evitar multas de trânsito.",
+        correct: false,
       },
       {
-        option: "2 metros",
+        option: "Proporcionar conforto durante a viagem.",
         correct: false,
       },
       {
         option:
-          "50 centímetros",
+          "Proteger o ocupante do veículo em caso de colisões ou freadas bruscas.",
+        correct: true,
+      },
+    ],
+  },
+  {
+    question: "É seguro viajar sem utilizar o cinto de segurança?",
+    answers: [
+      { option: "Sim, desde que o motorista seja experiente.", correct: false },
+      {
+        option:
+          "Não, pois aumenta significativamente o risco de ferimentos graves ou fatais em caso de acidentes.",
+        correct: true,
+      },
+      {
+        option: "Sim, desde que a velocidade do veículo seja baixa.",
         correct: false,
       },
     ],
   },
   {
-    question: "O que significa a placa de trânsito com a letra `P` em fundo azul?",
+    question: "Quem deve usar o cinto de segurança em um veículo?",
     answers: [
-      { option: " Proibido estacionar", correct: false },
+      { option: "Apenas os passageiros do banco da frente.", correct: false },
+      { option: "Apenas o motorista", correct: false },
       {
         option:
-          "Estacionamento permitido          ",
-        correct: true,
-      },
-      {
-        option: "Parada obrigatória",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Qual é a velocidade máxima permitida em uma área residencial?",
-    answers: [
-      { option: "80 km/h", correct: false },
-      { option: "60 km/h", correct: false },
-      {
-        option:
-          "40 km/h",
+          "Todos os ocupantes do veículo, independentemente da posição que ocupam.",
         correct: true,
       },
     ],
@@ -95,7 +95,7 @@ function loadQuestion() {
     const div = document.createElement("div");
 
     div.innerHTML = `
-    <button class="answer_button finish_button-jubs" data-correct="${answer.correct}">
+    <button class="answer_button finish_button-leti" data-correct="${answer.correct}">
       ${answer.option}
     </button>
     `;

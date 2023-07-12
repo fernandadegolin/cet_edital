@@ -8,47 +8,55 @@ const btnRestart = document.querySelector(".finish button");
 
 const questions = [
   {
-    question: "Qual é o objetivo principal do cinto de segurança?",
+    question:
+      "Qual é a importância de conhecer as regras de trânsito ao pedalar uma bicicleta?",
     answers: [
       {
         option: "Evitar multas de trânsito.",
         correct: false,
       },
       {
-        option: "Proporcionar conforto durante a viagem.",
-        correct: false,
-      },
-      {
         option:
-          "Proteger o ocupante do veículo em caso de colisões ou freadas bruscas.",
-        correct: true,
-      },
-    ],
-  },
-  {
-    question: "É seguro viajar sem utilizar o cinto de segurança?",
-    answers: [
-      { option: "Sim, desde que o motorista seja experiente.", correct: false },
-      {
-        option:
-          "Não, pois aumenta significativamente o risco de ferimentos graves ou fatais em caso de acidentes.",
+          "Garantir a segurança do ciclista e dos demais usuários da via.",
         correct: true,
       },
       {
-        option: "Sim, desde que a velocidade do veículo seja baixa.",
+        option: "Aumentar a velocidade nas vias.",
         correct: false,
       },
     ],
   },
   {
-    question: "Quem deve usar o cinto de segurança em um veículo?",
+    question:
+      "Por que é essencial ser visível no trânsito ao pedalar uma bicicleta?",
     answers: [
-      { option: "Apenas os passageiros do banco da frente.", correct: false },
-      { option: "Apenas o motorista", correct: false },
+      {
+        option: "Para ser notado pelos motoristas e evitar acidentes.",
+        correct: true,
+      },
+      {
+        option: "Para chamar a atenção dos pedestres.",
+        correct: false,
+      },
+      {
+        option: "Para evitar congestionamentos.",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question:
+      "O que significa ser previsível no trânsito ao pedalar uma bicicleta?",
+    answers: [
       {
         option:
-          "Todos os ocupantes do veículo, independentemente da posição que ocupam.",
+          "Sinalizar as intenções com antecedência e manter uma trajetória estável.",
         correct: true,
+      },
+      { option: "Realizar manobras arriscadas.", correct: false },
+      {
+        option: "Mudar constantemente de faixa.",
+        correct: false,
       },
     ],
   },

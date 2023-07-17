@@ -62,6 +62,11 @@ body {
   text-align: center;
 }
 
+.title p {
+  padding: 1rem 3rem;
+  line-height: 1.5rem;
+}
+
 /* CARDS */
 .cards {
   display: grid;

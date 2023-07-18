@@ -3,10 +3,10 @@
 CET de São Paulo está realizando o 13 º Prêmio CET de Educação de Trânsito, que tem por objetivo incentivar a reflexão, a criatividade e a produção de trabalhos voltados para a segurança no trânsito.
 <br>
 
-##### Inscrição
+##### Inscrição:
 
 `Número: 00287` <br>
-`Categoria: Tecnologia`
+`Categoria: 16 - Tecnologia`
 <br>
 
 ## Como acessar o site
@@ -31,16 +31,25 @@ O site foi desenvolvido em `HTML | CSS | Javascript` <br> A organização foi fe
 <div  align="center">
   <img margin-top:"20px" width="80" src="https://ik.imagekit.io/fernandadegolin/fe_ubZ9V1aBl.png" />
 
-<p align="center">
-  
-<!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/fernandadegolin/">
-    <img alt="LinkedIn" src="https://img.shields.io/twitter/url?label=&logo=linkedin&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ffernandadegolin%2F">
-  </a>
-
-  <!-- Instagram -->
-  <a href="https://www.instagram.com/fernandadegolin/">
-    <img alt="Instagram" src="https://img.shields.io/twitter/url?label=&logo=instagram&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fwww.instagram.com%2Ffernandadegolin%2F">
-  </a>
+<p align="center"> 
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/fernandadegolin/">
+      <img width= "60"
+        alt="LinkedIn"
+        src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/LinkedIn-novo.png"
+      />
+    </a>   
+    <!-- Email -->
+      <a href="mailto:fernandadegolin@hotmail.com"><img width= "60"
+        alt="Email"
+        src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/Outlook-novo.png"/></a>
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/fernandadegolin/">
+      <img width= "60"
+        alt="Instagram"
+        src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/Instagram-novo.png"/>
+    </a>
+    
+    
   </p>
 </div>

@@ -9,8 +9,6 @@ CET de São Paulo está realizando o 13 º Prêmio CET de Educação de Trânsit
 <br>
 `https://premio-cet.netlify.app/ `
 
-<br>
-<br>
 <br><br>
 <div  align="center">
   <img src="https://github.com/fernandadegolin/cet_edital/blob/master/src/assets/icon/Premio-CET.png" />

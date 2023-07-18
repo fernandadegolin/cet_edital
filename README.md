@@ -34,7 +34,7 @@ CET de São Paulo está realizando o 13 º Prêmio CET de Educação de Trânsit
 
 <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/fernandadegolin/">
-    <img alt="LinkedIn" src="https://img.shields.io/twitter/url?label=linkedin&logo=linkedin&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ffernandadegolin%2F">
+    <img alt="LinkedIn" src="https://img.shields.io/twitter/url?label=''&logo=linkedin&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ffernandadegolin%2F">
   </a>
 
   

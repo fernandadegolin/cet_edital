@@ -2,6 +2,11 @@
 
 CET de São Paulo está realizando o 13 º Prêmio CET de Educação de Trânsito, que tem por objetivo incentivar a reflexão, a criatividade e a produção de trabalhos voltados para a segurança no trânsito.
 <br>
+
+##### Inscrição
+
+`Número: 00287` <br>
+`Categoria: Tecnologia`
 <br>
 
 ## Como acessar o site

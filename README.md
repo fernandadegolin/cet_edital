@@ -8,18 +8,16 @@ CET de São Paulo está realizando o 13 º Prêmio CET de Educação de Trânsit
 <br>
 <br><br>
 <div  align="center">
-  <img src="[https://ik.imagekit.io/fernandadegolin/Component_1__3__XRs7XshHa.png](https://github.com/fernandadegolin/cet_edital/blob/master/src/assets/icon/Premio-CET.png)" />
+  <img src="https://github.com/fernandadegolin/cet_edital/blob/master/src/assets/icon/Premio-CET.png" />
 </div>
 <br>
 <br>
 
-<br><br>
-<div align="center">
-  <img width="700" src="https://media.giphy.com/media/mEP8ryLHFKY32tL9G3/giphy.gif"/>
-</div>
 
 ###### Tecnologias
-`React`
+`HTML` <br>
+`CSS` <br>
+`Javascript`
 
 
 <br></br>

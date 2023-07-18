@@ -1,8 +1,13 @@
-## Projeto Prêmio CET
+# Projeto Prêmio CET
  
 CET de São Paulo está realizando o 13 º Prêmio CET de Educação de Trânsito, que tem por objetivo incentivar a reflexão, a criatividade e a produção de trabalhos voltados para a segurança no trânsito.
 <br>
- 
+<hr>
+## Como acessar o site
+<a src='https://premio-cet.netlify.app/' />
+`https://premio-cet.netlify.app/ `
+
+
 <br>
 
 <br>
@@ -24,12 +29,12 @@ CET de São Paulo está realizando o 13 º Prêmio CET de Educação de Trânsit
 <div  align="center">
   <img margin-top:"20px" width="80" src="https://ik.imagekit.io/fernandadegolin/fe_ubZ9V1aBl.png" />
   
-<!-- Site -->
+<!-- Site 
 <p align="center">
   
   <a href="https://fernandadegolin.github.io/fernandadegolin/" target="_blank">
     <img alt="Site" src="https://img.shields.io/twitter/url?label=Site&logoColor=white&style=for-the-badge&url=https%3A%2F%2Ffernandadegolin.github.io%2Ffernandadegolin%2F">
-  </a>
+  </a>-->
 
 
 <!-- LinkedIn -->

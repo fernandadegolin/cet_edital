@@ -16,6 +16,8 @@ CET de São Paulo está realizando o 13 º Prêmio CET de Educação de Trânsit
 <br>
 <br>
 
+### O Desenvolvimento
+O site foi desenvolvido em ```HTML | CSS | Javascript``` A organização foi feita por pastas de maneira separada por maneira hierárquica de código e reaproveitamento de estilos entre as páginas.
 
 ###### Tecnologias
 `HTML` <br>

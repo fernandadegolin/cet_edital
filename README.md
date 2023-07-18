@@ -29,7 +29,7 @@ O site foi desenvolvido em `HTML | CSS | Javascript` <br> A organização foi fe
 <br><br>
 
 <div  align="center">
-  <img margin-top:"20px" width="80" src="https://ik.imagekit.io/fernandadegolin/fe_ubZ9V1aBl.png" />
+  <img margin-top="20" width="100" src="https://ik.imagekit.io/fernandadegolin/fe_ubZ9V1aBl.png" />
 
 <p align="center"> 
     <!-- LinkedIn -->
